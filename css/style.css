@@ -1,0 +1,108 @@
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } body{
+
+background-color: #000;
+}
+body{
+    background-color: #000;
+}
+
+.card{
+
+width: 400px;
+border:none;
+
+}
+
+
+
+
+.btr{
+
+border-top-right-radius: 5px !important;
+}
+
+
+.btl{
+
+border-top-left-radius: 5px !important;
+}
+
+.btn-dark {
+color: #fff;
+background-color: #17a2b8;
+border-color: #17a2b8;
+}
+.navbar-inverse .nav li a{
+  color: yellow;
+}
+
+/*Mouse encima*/
+.navbar-inverse .nav li a:hover{
+  color: red;
+}
+
+.btn-dark:hover {
+color: #fff;
+background-color: #17a2b8;
+border-color: #17a2b8;
+}
+nav.navbar {
+  background-color: #CC1414;
+}
+.nav-pills{
+
+display:table !important;
+width:100%;
+}
+
+.nav-pills .nav-link {
+border-radius: 0px;
+border-bottom: 1px solid #17a2b8;
+
+}
+
+.nav-item{
+display: table-cell;
+background: #1599ad;
+}
+
+
+.form{
+
+padding: 10px;
+height: 300px;
+}
+
+.form input{
+
+margin-bottom: 12px;
+border-radius: 3px;
+}
+
+
+.form input:focus{
+
+box-shadow: none;
+}
+
+
+.form button{
+
+margin-top: 20px;
+}
